@@ -1,4 +1,4 @@
-"""make_all_figures.py — regenerate every manuscript figure (600-dpi PNG + PDF).
+"""make_all_figures.py: regenerate every manuscript figure (600-dpi PNG + PDF).
 Run from anywhere: outputs always land in <repo_root>/figures."""
 import os, sys
 _HERE = os.path.dirname(os.path.abspath(__file__))
