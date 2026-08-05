@@ -1,5 +1,5 @@
 """
-model_multisite.py — multi-market run on real NREL PVWatts V8 (NSRDB PSM V3 TMY) profiles.
+model_multisite.py: multi-market run on real NREL PVWatts V8 (NSRDB PSM V3 TMY) profiles.
 Reads a profiles CSV (site, hour, cf, tamb_c) and, for each public market
 archetype, co-optimizes investment + hourly dispatch with 4-hour storage.
 
