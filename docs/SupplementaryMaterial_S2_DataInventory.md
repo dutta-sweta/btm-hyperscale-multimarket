@@ -43,7 +43,7 @@ Hourly PV capacity-factor and ambient-temperature profiles for the eleven market
 | default | 1.2 | 14% | Headline (Table 4; realized CFs 0.147–0.238) |
 | pv_sens | 1.3 | 11% | PV-assumption sensitivity (§4.6, §5.5; realized CFs 0.153–0.246) |
 
-**Market archetype coordinates (public metro city centers — no facility location is identified):**
+**Market archetype coordinates (public metro city centers; no facility location is identified):**
 
 | Market | Latitude | Longitude | Grid region |
 |---|---|---|---|
@@ -123,4 +123,4 @@ Each model input, its source, units, base-case value, and its entry point in the
 
 **Equipment lead-time data.** Transformer and GSU lead-time figures are drawn from agency reports and trade reporting (Wood Mackenzie via Reuters) and are first-order schedule constraints, not precise procurement quotes.
 
-**Solar data vintage.** Profiles are typical-meteorological-year (TMY) composites — a screening choice appropriate for market-level comparison, not a specific calendar year; this is disclosed in the manuscript limitations (§6.5).
+**Solar data vintage.** Profiles are typical-meteorological-year (TMY) composites, a screening choice appropriate for market-level comparison, not a specific calendar year; this is disclosed in the manuscript limitations (§6.5).
