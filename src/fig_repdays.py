@@ -1,5 +1,5 @@
 """
-fig_repdays.py  ->  Figure_repdays (OPTIONAL — not in the submitted set)
+fig_repdays.py  ->  Figure_repdays (OPTIONAL: not in the submitted set)
 Illustrates the temporal-reduction step (Section 4.4): a site's 365 daily
 24-hour capacity-factor shapes are clustered by k-means (k=12, fixed seed)
 into weighted representative days. Uses the SAME clustering call as the
