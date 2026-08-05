@@ -24,7 +24,7 @@ cd btm-hyperscale-multimarket
 python3 -m venv .venv && source .venv/bin/activate     # macOS/Linux
 pip install -r requirements.txt
 
-# 1) (optional) re-pull the solar profiles — needs a free NREL key
+# 1) (optional) re-pull the solar profiles (needs a free NREL key)
 export NREL_API_KEY="your_key_here"
 python src/pull_pvwatts_profiles.py --config default
 python src/pull_pvwatts_profiles.py --config pv_sens
@@ -65,12 +65,12 @@ hourly profiles from scratch.
 │   ├── model_multisite.py        capacity-expansion + dispatch LP (PuLP/CBC)
 │   ├── verify_manuscript.py      PASS/FAIL gate: model output vs manuscript numbers
 │   ├── mdpi_energies_style.py    MDPI Energies figure-compliance style module
-│   ├── fig_workflow.py           Figure 1 — methodology flowchart
-│   ├── fig_leadtimes.py          Figure 2 — equipment/interconnection lead times
-│   ├── fig_montecarlo.py         Figure 3 — Monte Carlo LCOE distributions
-│   ├── fig_crossover.py          Figure 4 — solar-entry threshold vs capacity factor
-│   ├── fig_sensitivity.py        Figure 5 — three-scenario robustness
-│   ├── fig_repdays.py            optional extra — k-means representative days
+│   ├── fig_workflow.py           Figure 1: methodology flowchart
+│   ├── fig_leadtimes.py          Figure 2: equipment/interconnection lead times
+│   ├── fig_montecarlo.py         Figure 3: Monte Carlo LCOE distributions
+│   ├── fig_crossover.py          Figure 4: solar-entry threshold vs capacity factor
+│   ├── fig_sensitivity.py        Figure 5: three-scenario robustness
+│   ├── fig_repdays.py            optional extra: k-means rep. days
 │   └── make_all_figures.py       regenerate Figures 1-5
 ├── figures/                      generated output (600-dpi PNG + PDF)
 └── docs/                         data-source inventory (Supplementary Material S2)
@@ -96,11 +96,11 @@ representative metro coordinates (city centers). No facility location is
 identified. Fixed system parameters and exact request settings are in
 `docs/` (Supplementary Material S2) and in `src/pull_pvwatts_profiles.py`.
 
-> **Reproducibility note — profile configuration (important).** The
+> **Reproducibility note on profile configuration (important).** The
 > manuscript reports two PV configurations: a **default** headline
 > (DC/AC 1.2, 14% losses) behind Table 4, and a **PV sensitivity**
 > (DC/AC 1.3, 11% losses). The file `data/pv_profiles_pv_sens.csv` is the
-> **sensitivity** pull — running the model on it reproduces the paper's
+> **sensitivity** pull. Running the model on it reproduces the paper's
 > sensitivity results (Phoenix threshold $105/ton; ~$9/ton below the
 > default on average), verified by `src/verify_manuscript.py`. To
 > reproduce the **headline**, pull the default config
@@ -109,11 +109,11 @@ identified. Fixed system parameters and exact request settings are in
 >
 > **API domain:** the pull script uses `developer.nlr.gov` (the host
 > current since NREL's 2026-05-29 domain transition). Existing API keys
-> keep working — only the domain changed.
+> keep working; only the domain changed.
 
 ## Licensing
 
-* **Code** (everything in `src/`): MIT — see `LICENSE`.
+* **Code** (everything in `src/`): MIT (see `LICENSE`).
 * **Data** (`data/`): released under CC-BY-4.0. The underlying PVWatts/NSRDB
   data are U.S. Government works; please also credit NREL.
 
