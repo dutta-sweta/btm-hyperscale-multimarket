@@ -115,6 +115,8 @@ Each model input, its source, units, base-case value, and its entry point in the
 
 **Archival stability.** Government and laboratory reports (EIA, DOE, NREL, EPA) are periodically revised or relocated. The author recommends downloading and archiving a dated PDF of every source at submission and depositing the archive alongside the code so links remain verifiable through review and after publication. The `atb.nrel.gov` URL was re-verified as resolving on 31 July 2026.
 
+**Code and data archive.** The model code, the hourly PVWatts profiles, the model output files, the verification harness, and the figure-generation scripts are deposited at Zenodo under the concept DOI https://doi.org/10.5281/zenodo.21803457, which always resolves to the most recent version. The release used to produce the results reported in the manuscript is version 1.0.0, https://doi.org/10.5281/zenodo.21803458. The development repository is at https://github.com/dutta-sweta/btm-hyperscale-multimarket (accessed on 5 August 2026). Code is released under the MIT license and the accompanying data under CC BY 4.0.
+
 **Currency basis.** All monetary values are 2023 U.S. dollars unless otherwise noted, consistent with the EIA Annual Energy Outlook 2025 cost basis. Where sources report in a different vintage, values were not deflated; this simplification is noted in the manuscript limitations.
 
 **ISO queue and interconnection data.** Interconnection timelines (ERCOT, NYISO) and queue statistics (DOE i2X; Gorman et al. 2024) reflect the most recent editions available as of the access date and are used for schedule context, not as model optimization inputs.

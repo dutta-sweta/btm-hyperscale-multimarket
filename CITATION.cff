@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software or data, please cite the associated article."
+message: "If you use this software or data, please cite it using the metadata below, and please also cite the associated article."
 title: "Behind-the-Meter Power for Hyperscale Campuses: Multi-Market Techno-Economic Framework (code and data)"
 authors:
   - family-names: Dutta
@@ -9,4 +9,19 @@ authors:
 version: "1.0.0"
 date-released: "2026-08-05"
 license: MIT
+type: software
+doi: "10.5281/zenodo.21803457"
 repository-code: "https://github.com/dutta-sweta/btm-hyperscale-multimarket"
+keywords:
+  - behind-the-meter generation
+  - hyperscale data centers
+  - capacity expansion
+  - carbon pricing
+  - techno-economic analysis
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21803457"
+    description: "Concept DOI for all versions of this repository (always resolves to the latest release)."
+  - type: doi
+    value: "10.5281/zenodo.21803458"
+    description: "DOI for version 1.0.0, the release used to produce the results reported in the manuscript."

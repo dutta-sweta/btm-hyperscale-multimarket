@@ -1,4 +1,7 @@
-# Behind-the-Meter Power for Hyperscale Campuses — Multi-Market Techno-Economic Framework
+# Behind-the-Meter Power for Hyperscale Campuses: Multi-Market Techno-Economic Framework
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21803457.svg)](https://doi.org/10.5281/zenodo.21803457)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Reproducible code and data for the manuscript *"Behind-the-Meter Power for
 Hyperscale Campuses: A Multi-Market Techno-Economic Framework for
@@ -116,6 +119,21 @@ identified. Fixed system parameters and exact request settings are in
 
 ## Citing
 
-See `CITATION.cff`. A permanent DOI for this repository is minted via the
-GitHub–Zenodo integration on each release (see the submission playbook in
-the manuscript package).
+Every release of this repository is archived on Zenodo and assigned a
+permanent DOI.
+
+* **All versions (recommended for general citation):**
+  [10.5281/zenodo.21803457](https://doi.org/10.5281/zenodo.21803457)
+  This DOI always resolves to the most recent release.
+* **The exact version behind the manuscript:** v1.0.0,
+  [10.5281/zenodo.21803458](https://doi.org/10.5281/zenodo.21803458)
+
+Software and data citation:
+
+> Dutta, S. (2026). *Behind-the-Meter Power for Hyperscale Campuses:
+> Multi-Market Techno-Economic Framework (code and data)* (Version 1.0.0)
+> [Software]. Zenodo. https://doi.org/10.5281/zenodo.21803458
+
+If you use this repository, please also cite the associated article, which
+is under review at MDPI *Energies*. Machine-readable metadata for both is
+in `CITATION.cff`.
