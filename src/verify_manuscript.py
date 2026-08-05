@@ -4,7 +4,7 @@ Reconcile the manuscript's numbers against the model's actual output.
 
 Usage
 -----
-    # headline (default config) — after you pull it and run the model:
+    # headline (default config), after you pull it and run the model:
     python src/verify_manuscript.py --config default \
         --results data/results_default.csv
 
