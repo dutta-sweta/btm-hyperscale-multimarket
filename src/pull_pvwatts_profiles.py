@@ -51,7 +51,7 @@ FIXED = dict(
     dataset="nsrdb",
 )
 
-# Public representative metro coordinates (city centers) — NOT facility sites.
+# Public representative metro coordinates (city centers), NOT facility sites.
 SITES = {
     "ATL_Atlanta_GA":      (33.749,  -84.388),
     "CLT_Charlotte_NC":    (35.227,  -80.843),
