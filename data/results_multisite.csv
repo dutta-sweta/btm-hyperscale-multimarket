@@ -1,0 +1,12 @@
+code,market,grid_region,cf,thr_s1_default,thr_s2_pv,thr_s3_temp,pv_share_150
+PDX,"Portland, OR",Pacific NW,0.147,230,220,230,0
+CMH,"Columbus, OH",PJM,0.168,190,180,190,0
+SBN,"South Bend, IN",MISO,0.171,185,175,185,0
+IAD,"Ashburn, VA",PJM,0.174,180,170,180,0
+PHL,"Philadelphia, PA",PJM,0.175,180,170,180,0
+CLT,"Charlotte, NC",Southeast,0.186,165,155,165,0
+JAN,"Jackson, MS",MISO-South,0.188,160,155,160,0
+ATL,"Atlanta, GA",Southeast,0.189,160,150,160,0
+IAH,"Houston, TX",ERCOT,0.191,160,150,160,0
+RNO,"Reno, NV",WECC,0.224,125,115,125,16
+PHX,"Phoenix, AZ",WECC,0.238,110,105,110,18

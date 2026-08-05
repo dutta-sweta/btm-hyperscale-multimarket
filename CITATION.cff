@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the associated article."
+title: "Behind-the-Meter Power for Hyperscale Campuses: Multi-Market Techno-Economic Framework (code and data)"
+authors:
+  - family-names: Dutta
+    given-names: Sweta
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0007-2162-3564"
+version: "1.0.0"
+date-released: "2026-08-05"
+license: MIT
+repository-code: "https://github.com/dutta-sweta/btm-hyperscale-multimarket"
