@@ -13,11 +13,13 @@ type: software
 doi: "10.5281/zenodo.21803457"
 repository-code: "https://github.com/dutta-sweta/btm-hyperscale-multimarket"
 keywords:
-  - behind-the-meter generation
-  - hyperscale data centers
-  - capacity expansion
+  - behind-the-meter power
+  - data centers
+  - levelized cost of electricity
+  - energy storage
+  - capacity-expansion optimization
+  - transformer lead times
   - carbon pricing
-  - techno-economic analysis
 identifiers:
   - type: doi
     value: "10.5281/zenodo.21803457"
