@@ -108,7 +108,7 @@ def save_fig(fig, name: str, outdir: str = "figures",
 
     PNG at >= 600 dpi is the MDPI submission artefact (insert into the Word
     manuscript). The PDF is the vector source of truth for archival; if a
-    figure is wrong, fix the script and re-run — never hand-edit outputs.
+    figure is wrong, fix the script and re-run; never hand-edit outputs.
     """
     os.makedirs(outdir, exist_ok=True)
     for ext in formats:
